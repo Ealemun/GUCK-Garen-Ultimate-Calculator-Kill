@@ -6,10 +6,11 @@ function calculateDamage() {
     if (level === 1) {
         result = Math.round(0.2 * hp + 120);
     } else if (level === 2) {
-        result = Math.round(0.2308 * hp + 230.77);
+        result = Math.round(0.2308 * hp + 192.31);
     } else if (level === 3) {
-        result = Math.round(0.2593 * hp + 333.33);
+        result = Math.round(0.2593 * hp + 259.26);
     }
 
     document.getElementById('result').textContent = `L'ultimate de Garen va tuer la cible avec ${result} HP.`;
+
 }
